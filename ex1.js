@@ -8,9 +8,9 @@ Elabore um programa que contenha uma lista de produtos:
 */
 
 var menu  = [
-    {codigo: 1, nome: "Hamburger", valor: 10},
-    {codigo: 2, nome: "X-Salada", valor: 15},
-    {codigo: 3, nome: "X-Bacon", valor: 20},
+    {codigo: 1, nome: "Hamburger", preco: 10},
+    {codigo: 2, nome: "X-Salada", preco: 15},
+    {codigo: 3, nome: "X-Bacon", preco: 20},
 ];
 
 console.log("Código | Nome             | Valor");
@@ -22,7 +22,7 @@ var achou = false;
 for(var i = 0; i < menu.length; i++){
 if (codigo == menu[i].codigo){
 console.log("\n\n ==== Escolhido foi: ====");
-console.log(menu[i].codigo, "   |", menu[i].nome, "    |",menu[i].preco );
+console.log(menu[i].codigo, "   |", menu[i].nome, "    |", menu[i].preco );
 achou = true
 }
 
